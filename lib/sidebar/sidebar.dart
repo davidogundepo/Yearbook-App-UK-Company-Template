@@ -243,8 +243,8 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
-                                    icon: MdiIcons.laptopMac,
+                                  child: MenuItems(
+                                    icon: MdiIcons.laptop,
                                     title: technologicalTechnicalTeamTitle,
 
                                   ),
@@ -262,7 +262,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
+                                  child: MenuItems(
                                     icon: MdiIcons.cameraGopro,
                                     title: digitalDeliveryTeamTitle,
                                   ),
@@ -280,7 +280,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
+                                  child: MenuItems(
                                     icon: MdiIcons.phone,
                                     title: marketingCommercialTeamTitle,
                                   ),
@@ -298,7 +298,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
+                                  child: MenuItems(
                                     icon: MdiIcons.checkbook,
                                     title: financeTeamTitle,
                                   ),
@@ -316,7 +316,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
+                                  child: MenuItems(
                                     icon: MdiIcons.human,
                                     title: administrationTeamTitle,
                                   ),
@@ -334,7 +334,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                 },
                                 child: Align(
                                   alignment: Alignment.centerLeft,
-                                  child: MenuItem(
+                                  child: MenuItems(
                                     icon: MdiIcons.pillar,
                                     title: managementTeamTitle,
                                   ),
@@ -360,7 +360,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                                   },
                                   child: Align(
                                     alignment: Alignment.center,
-                                    child: MenuItem(
+                                    child: MenuItems(
                                       icon: MdiIcons.logout,
                                       title: exitAppStatement,
                                     ),
